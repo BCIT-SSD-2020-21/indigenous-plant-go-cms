@@ -2,8 +2,8 @@
 const {MongoClient, ObjectID, Timestamp} = require('mongodb')
 require('dotenv').config()
 
-const url =  process.env.MONGO_DB_URL 
-const dbName = process.env.MONGO_DB_NAME 
+const url =  process.env.MONGO_DB_URL_DEV
+const dbName = process.env.MONGO_DB_NAME_DEV
 const client = new MongoClient(url, {useUnifiedTopology: true, useNewUrlParser: true})
 
 const seed = async () => {

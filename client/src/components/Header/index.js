@@ -32,7 +32,7 @@ export default function Header({ handleSignout, userData, navigateToProfile }) {
               />
             </div>
             <h2 style={style.title}>
-              Indigenous Plants Go{" "}
+              Indigenous Plant Go{" "}
               <span
                 style={{
                   background: "var(--highlight)",
